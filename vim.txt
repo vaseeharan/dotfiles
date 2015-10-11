@@ -1,0 +1,45 @@
+verbs:
+
+d: delete, c: change, y: yank, v: visual select
+
+modifiers:
+
+i: inside, a: around, NUM, t: to, f: find, / search
+
+nouns:
+
+w: word, s: sentence, p: para, t: tag, b: block
+
+verb-modifier-noun
+
+delete two words: d2w
+change inside sentence: cis
+yank inside para: yip
+change to open bracket: ct<
+
+motions: j, k, h, l
+
+search:
+/foo
+* search for other instances of the word under the cursor
+n go to the next match
+N previous match
+; next char
+, previous char
+
+moving within the line:
+0: to the beginning
+$: to the end
+^: to the first non-blank character
+
+moving by word:
+w: move forward one word
+b: move back one word
+e: move to the end of word
+W: move forward one big word
+B: move back one big word
+) move forward one sentence
+} move forward one para
+
+move within the screen:
+H: top o
